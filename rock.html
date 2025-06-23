@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="paper.css" />
+  </head>
+  <body>
+    <div class="header">
+      <p>Scissor Paper Rock Game</p>
+      <div id="btn">
+        <span id="mode">Dark</span>
+        <img src="moon-solid.svg" id="icon" />
+      </div>
+    </div>
+    <div class="content">
+      <div class="content-box">
+        <div id="images">
+          <div class="image">
+            <img src="rock.jpg" id="rock" />
+            <p>ROCK</p>
+          </div>
+          <div class="image">
+            <img src="scissors.jpg" id="scissor" />
+            <p>SCISSOR</p>
+          </div>
+          <div class="image">
+            <img src="paper.jpg" id="paper" />
+            <p>PAPER</p>
+          </div>
+        </div>
+        <div class="score-board">
+          <div class="score" id="uScore">
+            <h2 id="user-score">0</h2>
+            <h2 id="user-msg">YOU</h2>
+          </div>
+          <div class="score" id="cScore">
+            <h2 id="computer-score">0</h2>
+            <h2 id="comp-msg">COMPUTER</h2>
+          </div>
+        </div>
+        <div id="result">
+          <p>Select Any One</p>
+        </div>
+      </div>
+    </div>
+    <script src="scissor.js"></script>
+  </body>
+</html>
