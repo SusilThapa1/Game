@@ -104,7 +104,7 @@ function updateScoreColor() {
   } else if (userScore < compScore) {
     user_id.style.color = "red";
     comp_id.style.color = "green";
-    userMsg.innerText = " Oh Shit ! You're losing";
+    userMsg.innerText = " Ohh No ! You're losing";
     compMsg.innerText = "Computer is leading";
   } else {
     // Draw condition
