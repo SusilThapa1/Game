@@ -25,6 +25,9 @@ This project is interactive, responsive, and comes with a sleek **dark/light mod
 - **Vanilla JavaScript**
 
 ---
+##Live Preview
+[See live](https://rps.thapasusil.com.np)
+---
 
 ## 🚀 How to Run
 
